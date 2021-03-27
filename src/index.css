@@ -32,3 +32,9 @@
 .navbar a:hover {
   color: #5cd65c;
 }
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
