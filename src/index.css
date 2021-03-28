@@ -38,3 +38,15 @@
   margin: 40px auto;
   padding: 20px;
 }
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: #1f7de9;
+  margin-bottom: 8px;
+}
