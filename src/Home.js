@@ -8,15 +8,9 @@ const Home = () => {
     { id: 3, title: 'No Cap for Cappucinos' , author: 'Barista Bob', body: 'There are a lot of differing opinions on cappucinos...' }
   ]);
 
-  const handleDelete = (blogID) => {
-    const newBlogs = blogs.filter((blog) => blog.id !== blogID);
-    setBlogs(newBlogs);
-  };
-
-
   return (
     <div className="home">
-      <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
+      <BlogList blogs={blogs} title="All Blogs" />
     </div>
   );
 }
